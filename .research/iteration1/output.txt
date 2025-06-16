@@ -1,0 +1,36 @@
+Using device: cuda
+Starting ILWGAN vs LWGAN Experimental Comparison
+============================================================
+Status: running
+
+=== Running Smoke Test for All Experiments ===
+
+=== Experiment 1: Isometric Regularizer Impact ===
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /home/runner/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+ILWGAN Isometric Loss: 30.989837646484375
+LWGAN  Isometric Loss: 31.746597290039062
+Saved latent interpolation figure as: .research/iteration1/images/latent_interpolation_pair1.pdf
+
+=== Experiment 2: Adaptive Intrinsic Dimension Analysis ===
+ILWGAN effective latent dimensions estimated: 9
+LWGAN effective latent dimensions estimated:  9
+Saved singular value spectrum figure as: .research/iteration1/images/singular_value_spectrum.pdf
+
+=== Experiment 3: Sample Quality and Stability Benchmarking ===
+Epoch 1: ILWGAN Loss 1.0093, LWGAN Loss 1.2271
+            ILWGAN FID 46.7459, IS 2.9464 | LWGAN FID 51.6131, IS 2.6318
+Epoch 2: ILWGAN Loss 0.5346, LWGAN Loss 0.6425
+            ILWGAN FID 22.9993, IS 2.9979 | LWGAN FID 25.4424, IS 2.7975
+Epoch 3: ILWGAN Loss 0.3805, LWGAN Loss 0.4020
+            ILWGAN FID 16.4112, IS 3.1850 | LWGAN FID 17.0278, IS 2.8136
+Epoch 4: ILWGAN Loss 0.2958, LWGAN Loss 0.3017
+            ILWGAN FID 12.6448, IS 3.1595 | LWGAN FID 14.3488, IS 2.9942
+Epoch 5: ILWGAN Loss 0.2472, LWGAN Loss 0.2637
+            ILWGAN FID 10.7241, IS 3.3689 | LWGAN FID 10.6382, IS 3.0658
+Saved training loss curve figure as: .research/iteration1/images/training_loss.pdf
+Saved FID scores figure as: .research/iteration1/images/fid_scores.pdf
+Saved Inception scores figure as: .research/iteration1/images/inception_scores.pdf
+
+Smoke test finished. All experiments executed successfully.
+
+Experiment completed successfully. Status: stopped
