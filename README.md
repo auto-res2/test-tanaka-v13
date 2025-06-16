@@ -1,1 +1,7 @@
-airas-template
+# Isometric Latent Wasserstein GAN for Geometric Regularization in Generative Models
+> ⚠️ **NOTE:** This research is an automatic research using AIRAS.
+## Abstract
+We propose the Isometric Latent Wasserstein GAN (ILWGAN), a novel generative framework that extends the baseline Latent Wasserstein GAN (LWGAN) by incorporating an isometric regularizer inspired by latent diffusion models. ILWGAN adaptively learns the intrinsic latent dimension that matches the underlying data manifold while enforcing geometric consistency between the latent and image spaces. This is achieved by combining a rank‐revealing mechanism with a distance-distortion loss that minimizes discrepancies between pairwise latent distances and corresponding distances in a learned feature space derived from generated images. The method provides theoretical guarantees on intrinsic dimension estimation and generalization, and it is validated through comprehensive experiments on both synthetic and real-world datasets. Quantitative evaluations using Fréchet Inception Distance (FID) and Inception Score (IS), complemented by qualitative assessments via latent space interpolation, demonstrate improved sample quality, smoother training dynamics, and enhanced disentanglement of latent representations compared with LWGAN. Overall, ILWGAN advances representation learning in generative networks by integrating adaptive latent dimension learning with geometric regularization, offering promising prospects for controlled image editing and high-fidelity synthesis.
+
+- [Research history](https://github.com/auto-res2/test-tanaka-v13/blob/develop/.research/research_history.json)
+- [Devin execution log](https://app.devin.ai/sessions/4b0bbc14aee34b0493c3b372d7861386)
